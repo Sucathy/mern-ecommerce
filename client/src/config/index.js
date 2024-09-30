@@ -65,19 +65,14 @@ export const addProductFormElements = [
       // { id: "footwear", label: "Footwear" },
     ],
   },
-  // {
-  //   label: "Brand",
-  //   name: "brand",
-  //   componentType: "select",
-  //   options: [
-  //     { id: "nike", label: "Nike" },
-  //     { id: "adidas", label: "Adidas" },
-  //     { id: "puma", label: "Puma" },
-  //     { id: "levi", label: "Levi's" },
-  //     { id: "zara", label: "Zara" },
-  //     { id: "h&m", label: "H&M" },
-  //   ],
-  // },
+  {
+   label: "Brand",
+   name: "brand",
+   componentType: "select",
+    options: [
+    { id: "ShopSj", label: "ShopSJ" },
+    ],
+   },
   {
     label: "Price",
     name: "price",
