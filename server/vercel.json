@@ -1,7 +1,15 @@
 {
+    "installCommand": "npm intsall --legacy-peer-deps",
     "version":2,
     "builds": [
-        {"src": "*.js", "use": "@vercel/node"}
+        {
+            "src": "server.js",
+            "use": "@vercel/node"
+        },
+        {
+            "src": "src/**/*",
+            "use": "@verce/static"
+        }
     ],
     "routes":[
         {
