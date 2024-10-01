@@ -45,7 +45,9 @@ app.use(
     credentials: true,
   })
 );
-
+app.get("/",(res,res)=>{
+  res.json("hello")
+})
 app.use(cookieParser());
 app.use(express.json());
 app.use("/api/auth", authRouter);
